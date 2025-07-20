@@ -1,0 +1,27 @@
+* {
+    margin-top: 20px;
+    padding: 0;
+}
+
+
+body {
+    font-family: monospace, sans-serif;
+    background-color: black;
+    color: aqua;
+}
+
+main {
+    display: flex;
+    max-width: 900px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.divGenerico {
+    width: 100%;
+    border-style: solid;
+    border-color: aqua;
+    border-width: 1px;
+    margin: 5px;
+    padding: 10px;
+}
