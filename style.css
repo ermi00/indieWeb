@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: monospace;    
+    font-family: monospace;
     background-color: black;
     color: aqua;
     display: flex;
@@ -36,15 +36,36 @@ main {
     margin: 5px;
 }
 
-.divGenerico {  
+.divGenerico {
     width: 100%;
-    border-style: solid;
+    border-style: dotted;
     border-color: aqua;
     border-width: 1px;
     padding: 20px;
-    margin: 5px;
+    margin: 10px;
 }
 
 img {
     width: 100%;
+}
+
+.imgPortadas {
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 1px;
+    object-fit: cover;
+}
+
+button {
+    width: 30%;
+    margin-top: 5px;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aqua;
+    border: none;
+}
+
+h2 {
+    margin-top: 0;
 }
