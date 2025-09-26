@@ -1,6 +1,6 @@
 let contador = 0;
 let pistasDeAudio = [
-  "./assets/Hypnotize.mp3"
+  "./assets/funky.mp3"
 ];
 
 let botonReproducir = document.getElementById("botonReproducir");
