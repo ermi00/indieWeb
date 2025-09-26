@@ -7,7 +7,7 @@
 body {
     font-family: monospace;
     background-color: black;
-    color: aqua;
+    color: cyan;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,8 +38,8 @@ main {
 
 .divGenerico {
     width: 100%;
-    border-style: dotted;
-    border-color: aqua;
+    border-style: solid;
+    border-color: cyan;
     border-width: 1px;
     padding: 20px;
     margin: 10px;
@@ -50,21 +50,27 @@ img {
 }
 
 .imgPortadas {
-    border-style: dotted;
-    border-color: aqua;
+    border-style: solid;
+    border-color: cyan;
     border-width: 1px;
     object-fit: cover;
 }
 
 button {
-    width: 30%;
+    width: 100%;
     margin-top: 5px;
     padding: 10px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: aqua;
+    background-color: black;
+    color: cyan;
+    border: 1px solid cyan;
 }
 
 h2 {
     margin-top: 0;
+}
+
+.imgPeliculas{
+    width: 200px; 
 }

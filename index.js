@@ -1,10 +1,6 @@
 let contador = 0;
 let pistasDeAudio = [
-  "/assets/Bonetrousle.mp3",
-  "/assets/megalovaniaSongFinal.mp3",
-  "/assets/Hot-Head Bop.mp3",
-  "/assets/Snakey Chantey.mp3",
-  "/assets/Steel Drum Rhumba.mp3",
+  "/assets/Hypnotize.mp3"
 ];
 
 let botonReproducir = document.getElementById("botonReproducir");
