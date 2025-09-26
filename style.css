@@ -45,6 +45,11 @@ main {
     margin: 10px;
 }
 
+.divGenerico:hover{
+    border-style: dotted;
+    border-width: 1px;
+}
+
 img {
     width: 100%;
 }
@@ -73,4 +78,9 @@ h2 {
 
 .imgPeliculas{
     width: 200px; 
+}
+
+.imgPersonajes{
+    width: 180px;
+    object-fit: cover;
 }
